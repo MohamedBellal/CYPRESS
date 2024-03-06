@@ -1,0 +1,253 @@
+Catégorie : interactions de base
+  Test 1.1 : le site est accessible
+    Entrée : visite de l'url du site
+    Sortie attendue : aucune, le framework ne génère pas d'erreur
+  
+  Test 1.2 : les site est prêt à jouer quand on y accède
+    Entrée : visite de l'url du site
+    Sortie attendue :
+    - Le score de départ correspond à "0-0"
+    - une grille 3x3 est affichée
+    - le bouton "rejouer" est visible mais pas cliquable
+    - Un message invite le joueur 1 à jouer
+
+  Test 1.3 : les clics fonctionnent
+    Entrée : clic sur une case
+    Sortie attendue: place un symbole sur la case
+ 
+  Test 1.4 : l'alternance des joueurs est respectée
+    Entrée : clic sur deux cases différentes d'affilée
+    Sortie attendue: affiche deux symboles différents à chaque clic
+
+
+Catégorie : gestion de la victoire en "simple"
+  Test 2.1 : la victoire en 3x3 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 3x3 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.2 : la victoire en 3x3 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 3x3 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.3 : la victoire en 3x3 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 3x3 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.4 : la victoire en 3x3 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 3x3 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.5 : la victoire en 3x3 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 3x3 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+
+  Test 2.6 : la victoire en 3x3 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 3x3 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+ 
+  Test 2.7 : la victoire en 8x8 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.8 : la victoire en 8x8 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.9 : la victoire en 8x8 fonctionne sur la cinquième ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.10 : la victoire en 8x8 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.11 : la victoire en 8x8 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.12 : la victoire en 8x8 fonctionne sur la cinquième colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.13 : la victoire en 8x8 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 8x8 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+
+  Test 2.14 : la victoire en 8x8 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 8x8 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+
+  Test 2.15 : la victoire en 5x5 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 5x5 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.16 : la victoire en 5x5 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 5x5 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.17 : la victoire en 5x5 fonctionne sur la troisième ligne
+    Entrée :  Gagner en ligne en 5x5 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 3 symboles
+
+  Test 2.18 : la victoire en 5x5 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 5x5 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.19 : la victoire en 5x5 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 5x5 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+  
+  Test 2.20 : la victoire en 5x5 fonctionne sur la troisième colonne
+    Entrée :  Gagner en ligne en 5x5 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 2.21 : la victoire en 5x5 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 5x5 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+
+  Test 2.22 : la victoire en 5x5 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 5x5 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 3 symboles
+
+
+Catégorie : gestion de la victoire en "complet"
+  Test 3.1 : la victoire en 4x4 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 4x4 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 4 symboles
+
+  Test 3.2 : la victoire en 4x4 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 4x4 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 4 symboles
+
+  Test 3.3 : la victoire en 4x4 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 4x4 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 4 symboles
+
+  Test 3.4 : la victoire en 4x4 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 3x3 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 3 symboles
+
+  Test 3.5 : la victoire en 4x4 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 4x4 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 4 symboles
+
+  Test 3.6 : la victoire en 4x4 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 3x3 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 4 symboles
+ 
+  Test 3.7 : la victoire en 8x8 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 8 symboles
+
+  Test 3.8 : la victoire en 8x8 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 8 symboles
+
+  Test 3.9 : la victoire en 8x8 fonctionne sur la cinquième ligne
+    Entrée :  Gagner en ligne en 8x8 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 8 symboles
+
+  Test 3.10 : la victoire en 8x8 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 8 symboles
+
+  Test 3.11 : la victoire en 8x8 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 8 symboles
+
+  Test 3.12 : la victoire en 8x8 fonctionne sur la cinquième colonne
+    Entrée :  Gagner en ligne en 8x8 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 8 symboles
+
+  Test 3.13 : la victoire en 8x8 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 8x8 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 8 symboles
+
+  Test 3.14 : la victoire en 8x8 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 8x8 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 8 symboles
+
+  Test 3.15 : la victoire en 6x6 fonctionne sur la première ligne
+    Entrée :  Gagner en ligne en 6x6 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 6 symboles
+
+  Test 3.16 : la victoire en 6x6 fonctionne sur la dernière ligne
+    Entrée :  Gagner en ligne en 6x6 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 6 symboles
+
+  Test 3.17 : la victoire en 6x6 fonctionne sur la troisième ligne
+    Entrée :  Gagner en ligne en 6x6 en ligne
+    Sortie attendue: Le joueur gagne en ligne en alignant 6 symboles
+
+  Test 3.18 : la victoire en 6x6 fonctionne sur la première colonne
+    Entrée :  Gagner en ligne en 6x6 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 6 symboles
+
+  Test 3.19 : la victoire en 6x6 fonctionne sur la dernière colonne
+    Entrée :  Gagner en ligne en 6x6 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 6 symboles
+  
+  Test 3.20 : la victoire en 6x6 fonctionne sur la troisième colonne
+    Entrée :  Gagner en ligne en 6x6 en colonne
+    Sortie attendue: Le joueur gagne en colonne en alignant 6 symboles
+
+  Test 3.21 : la victoire en 6x6 fonctionne en diagonale
+    Entrée :  Gagner en ligne en 6x6 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 6 symboles
+
+  Test 3.22 : la victoire en 6x6 fonctionne en diagonale inverse
+    Entrée :  Gagner en ligne en 6x6 en diagonale
+    Sortie attendue: Le joueur gagne en diagonale en alignant 6 symboles
+
+
+Catégorie : options du jeu
+  Test 4.1 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 3x3 complet, placer 2 symboles identiques cotes à cotes en ligne, changer la taille de la grille à 8, placer un troisième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+  Test 4.2 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 8x8 complet, placer 7 symboles identiques cotes à cotes en ligne, changer la taille de la grille à 3, placer un huitième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+  Test 4.3 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 3x3 complet, placer 2 symboles identiques cotes à cotes en colonne, changer la taille de la grille à 8, placer un troisième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+  Test 4.4 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 8x8 complet, placer 7 symboles identiques cotes à cotes en colonne, changer la taille de la grille à 3, placer un huitième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+  Test 4.5 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 3x3 complet, placer 2 symboles identiques cotes à cotes en diagonale, changer la taille de la grille à 8, placer un troisième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+  Test 4.6 : changer la taille de la grille pendant une partie
+    Entrée :  lancer une partie en 8x8 complet, placer 7 symboles identiques cotes à cotes en diagonale, changer la taille de la grille à 3, placer un huitième symbole
+    Sortie attendue: Le joueur gagne en ne plaçant que 3 symboles identiques
+
+
+Catégorie : affichage
+  Test 3.1 : le jeu demande au bon joueur de jouer
+    Entrée : le joueur 1 joue
+    Sortie attendue: le jeu demande au joueur 2 de jouer
+
+  Test 3.2 : le jeu demande au bon joueur de jouer
+    Entrée : le joueur 2 joue
+    Sortie attendue: le jeu demande au joueur 1 de jouer
+
+  Test 3.3 : le jeu affiche bien le message de match nul
+    Entrée : le jeu se finit en match nul
+    Sortie attendue: le jeu affiche le message de match nul
+
+  Test 3.4 : le jeu affiche bien le message de victoire pour le bon joueur
+    Entrée : le jeu se finit par une victoire du joueur 1
+    Sortie attendue: le jeu affiche le message de victoire du joueur 1
+
+  Test 3.5 : le jeu affiche bien le message de victoire pour le bon joueur
+    Entrée : le jeu se finit par une victoire du joueur 2
+    Sortie attendue: le jeu affiche le message de victoire du joueur 2
+
+Comment améliorer mon code:
+
+Avant de faire un test sur une grille plus grande que 3 cases sur 3 cases, il faut obligatoirement que la partie précédente soie finie (gagnée ou perdue, peu importe) car dans le cas contraire, le programme ne pourra pas changer la taille de la grille.
+Je n'ai pas réussit à faire cela dans mon code. Pareil pour les modes de jeu.
